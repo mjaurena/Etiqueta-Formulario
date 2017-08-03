@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Formularios</title>
+  </head>
+  <body>
+    <form>
+      <fieldset>
+        <h1><strong>Registro en nuestra tienda</strong></h1>
+        <p><label for="NombreUsuario">Nombre de usuario</label><br/>
+        <input type="text" placeholder="Ej: Luis" id="NombreUsuario" autofocus required></p>
+        <p><label for="Email">Email:</label><br/>
+        <input type="email" placeholder="Ej: Luis@gmail.com" id="Email" required></p>
+        <p><label for="Edad">Edad:</label><br/>
+        <input type="number" placeholder="Ej: 21" id="Edad" required></p>
+        <p><label for="FechaNacimiento">Fecha de nacimiento:</label><br/>
+        <input type="date" id="FechaNacimiento"></p>
+        <p><label for="Genero">Género:</label><br/>
+        <input type="radio" name="Genero" id="Genero">Masculino<br/>
+        <input type="radio" name="Genero" id="Genero">Femenino</p>
+        <P><label for="Recomendado">Recomendado por:<br/>
+        <select name="Recomendado">
+          <option>Google</option>
+          <option>Amigo</option>
+          <option>Redes sociales</option>
+        </select>
+      </p>
+      <p><label for="Comentarios">Comentarios:<br/>
+        <textarea name="Comentarios" rows="5" cols="50"></textarea>
+      </p>
+      <p><label for="TerminosCondiciones">Acepto términos y condiciones:</label><br/>
+      <input type="checkbox" name="TerminosCondiciones" id="TerminosCondiciones"></p>
+      <input type="button" value="Registrar">
+      </fieldset>
+    </form>
+  </body>
+</html>
