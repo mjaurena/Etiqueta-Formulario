@@ -2,6 +2,8 @@
 <html>
   <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,user-scalable=no">
+    <link rel="stylesheet" href="css/estilos.css">
     <title>Formularios</title>
   </head>
   <body>
@@ -11,7 +13,7 @@
         <p><label for="NombreUsuario">Nombre de usuario</label><br/>
         <input type="text" placeholder="Ej: Luis" id="NombreUsuario" autofocus required></p>
         <p><label for="Email">Email:</label><br/>
-        <input type="email" placeholder="Ej: Luis@gmail.com" id="Email" required></p>
+        <input type="email" placeholder="Ej: Luis@gmail.com" name="Email" id="Email" required></p>
         <p><label for="Edad">Edad:</label><br/>
         <input type="number" placeholder="Ej: 21" id="Edad" required></p>
         <p><label for="FechaNacimiento">Fecha de nacimiento:</label><br/>
@@ -27,7 +29,7 @@
         </select>
       </p>
       <p><label for="Comentarios">Comentarios:<br/>
-        <textarea name="Comentarios" rows="5" cols="50"></textarea>
+        <textarea name="Comentarios"></textarea>
       </p>
       <p><label for="TerminosCondiciones">Acepto términos y condiciones:</label><br/>
       <input type="checkbox" name="TerminosCondiciones" id="TerminosCondiciones"></p>
